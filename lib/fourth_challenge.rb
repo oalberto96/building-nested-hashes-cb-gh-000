@@ -9,17 +9,19 @@ def fourth_challenge
         {:name => "Benolvoio", :age => "17", :attitude => "worried"},
         {:name => "Mercutio", :age => "18", :attitude => "hot-headed"}
       ]
-   }, 
+   },
    :capulet => {
       :patriarch => {name: "Lord Capulet", age: "50"},
       :matriarch => {name: "Lady Capulet", age: "51"},
       :heroine => {name: "Juliet", age: "15", status: "alive"},
       :heroine_friends => [
         #your hashes here!
+        {:name => "Steven", :age => "30", :attitude => "confused"},
+        {:name => "Nurse", :age => "40", :attitude => "worried"}
       ]
    }
 }
 
-  
+
 
 end
